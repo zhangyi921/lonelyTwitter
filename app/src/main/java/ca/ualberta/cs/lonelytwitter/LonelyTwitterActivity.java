@@ -57,6 +57,13 @@ public class LonelyTwitterActivity extends Activity {
 				tweetables.add(tweet);
 				tweetables.add(tweet1);
 
+//new==================================================================================================================
+				Mood mood1 = new Mood_happy();
+
+				tweet.moods.add(mood1);
+
+
+
 
 				setResult(RESULT_OK);
 				String text = bodyText.getText().toString();
