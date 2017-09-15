@@ -11,6 +11,7 @@ public abstract class Tweet implements Tweetable{
     private String message;
     private Date date;
     protected ArrayList<Mood> moods = new ArrayList<Mood>();
+    //since we can directly add mood in moods list, therefore i did not add method to add a mood
 
     public Tweet(String message){
         this.message = message;
