@@ -1,3 +1,9 @@
+/*
+ * Copyright©2017 teamx, CMPUT301, University of Alberta-All Right Reserved.
+ * You may use, distribute, or modify this code under term and conditions o fthe Code of Student Behavior at University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact yi16@ualberta.ca.
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -23,6 +29,11 @@ import android.widget.ListView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
+/**
+ * @author teamx
+ * @see Tweet
+ */
 
 public class LonelyTwitterActivity extends Activity {
 
